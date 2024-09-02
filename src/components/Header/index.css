@@ -2,6 +2,18 @@
     border:2px solid red;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left:2rem;
     padding-right:2rem;
+}
+.todo-text{
+    font-size:40px;
+    font-weight:900;
+}
+
+@media screen and (max-width:786px) {
+    .todo-text{
+        font-size:20px;
+        font-weight:900;
+    }
 }

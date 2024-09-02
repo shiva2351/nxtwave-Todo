@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  border:2px solid red;
+  padding:20px;
 }
 
 .App-logo {
@@ -35,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.main{
+  background-color: blue;
+  border:2px solid red;
+  height:80vh;
+}
+
+@media screen and (max-width:786px) {
+    .main{
+        
+    }
 }

@@ -8,12 +8,13 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
+      <div class="main">
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/login" component={LoginRoute}/>
         <Route exact path="/signup" component={SignUp} />
         <Redirect to="/"/>
-      </Switch>
+      </Switch></div>
     </div></BrowserRouter>
   );
 }

@@ -4,11 +4,11 @@ import "./index.css"
 const Home=()=>{
     console.log('home')
     const demo=["kk","ff","dfjd"]
-    return <div>
+    return <>
         <Header />
         <div>
             <div class="home-card-1">
-                <input type="search" />
+                <input type="search" placeholder="search here"/>
                 <div>
                     <button type="button">All</button>
                     <button type="button">Active</button>
@@ -26,13 +26,13 @@ const Home=()=>{
                     </ul></li>)}
             </ul>
             <div class="home-card-1">
-                <input type="search" />
+                <input type="text" placeholder="Add Task" />
                 <div>
                     <button type="button">Add Task</button>
                 </div>
             </div>
         </div>
-    </div>
+    </>
 }
 
 export default Home;
